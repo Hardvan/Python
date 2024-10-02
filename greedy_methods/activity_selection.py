@@ -12,15 +12,15 @@ Wikipedia: https://en.wikipedia.org/wiki/Activity_selection_problem
 
 def activity_selection(activities: list[tuple[int, int]]) -> list[tuple[int, int]]:
     """
-    Solves the Activity Selection Problem using a greedy algorithm by selecting
+    Solve the Activity Selection Problem using a greedy algorithm by selecting
     the maximum number of non-overlapping activities from a list of activities.
 
     Parameters:
-    activities (list[tuple[int, int]]): A list of tuples where each tuple contains
+    activities: A list of tuples where each tuple contains
                                         the start and end times of an activity.
 
     Returns:
-    list[tuple[int, int]]: A list of selected activities that are non-overlapping.
+    A list of selected activities that are non-overlapping.
 
     Example:
     >>> activity_selection([(1, 3), (2, 5), (3, 9), (6, 8)])
